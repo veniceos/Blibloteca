@@ -1,0 +1,58 @@
+/* ICON */
+button#log{
+    background: #cacaca00;
+    outline: none;
+    border: none;
+    width: 25px;
+    height: 25px;
+  }
+button ion-icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+/* STRUCTURE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    outline: 0;
+  }
+body {
+    background-color: #ffe8ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.deslog{
+  width: 30px;
+}
+.container {
+    display: flex;
+    width: 100px;
+    height: 120px;
+    background:  #504375;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 7px;
+}
+
+h2{
+  color: #504375;
+}
+
+a{
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffe8ef;
+}

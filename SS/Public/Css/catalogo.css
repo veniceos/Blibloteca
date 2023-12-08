@@ -1,0 +1,58 @@
+.catalogo{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.categoria{
+  background-color: #504375;
+  margin: 0 0 50px 0;
+  height: auto;
+  margin: 0 40px 50px 40px;
+  border-radius: 20px;
+}
+
+h2{
+  color: #39324d;
+  margin: 40px 0 10px 30px;
+}
+
+.categoria-ttl{
+  color: #ffe8ef;
+  font-size: 26px;
+  margin: 20px 0 10px 50px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.livros{
+  background-color: #39324d;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0 0 20px 20px;
+}
+
+.livro-container{
+  height: auto;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffe8ef;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.livro-container img{
+  width:100;
+  margin: 20px 0 10px 0;
+}
+
+li{
+  list-style: none;
+}
+
